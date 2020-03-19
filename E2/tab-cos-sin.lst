@@ -294,12 +294,11 @@ ARM Macro Assembler    Page 5
   136 00000100         
   137 00000100                 END
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend=.\obj\tab-cos-sin.d -o.\obj\tab-cos-sin.o -I.\RTE\_Simu -IC:\Users
-\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include -IC:\Users\ti
-tip\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include --predefine
-="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION
- SETA 529" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_MD SETA 1" --list=
-tab-cos-sin.lst tab-cos-sin.s
+ork --depend=.\obj\tab-cos-sin.d -o.\obj\tab-cos-sin.o -I.\RTE\_Simu -IC:\Keil_
+v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_
+DFP\2.3.0\Device\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB SE
+TA 1" --predefine="__UVISION_VERSION SETA 525" --predefine="_RTE_ SETA 1" --pre
+define="STM32F10X_MD SETA 1" --list=tab-cos-sin.lst tab-cos-sin.s
 
 
 

@@ -1,9 +1,10 @@
 --cpu Cortex-M3
-".\obj\startup-rvds.o"
 ".\obj\principal.o"
-".\gassp72.lib"
 ".\obj\signal.o"
 ".\obj\tab-cos-sin.o"
+".\obj\trigo.o"
+".\obj\startup-rvds.o"
+".\gassp72.lib"
 --library_type=microlib --strict --scatter ".\Obj\CHTI.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

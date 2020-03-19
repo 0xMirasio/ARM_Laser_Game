@@ -1,10 +1,8 @@
+//Signal carré
 #include "../gassp72.h"
 
 extern void callback(void);
 extern void init(int i);
-extern void test_trigo(int, int *);
-extern int min;
-extern int max;
 int main(void)
 {
 
@@ -25,12 +23,16 @@ int main(void)
 	// lancement du timer
 	Run_Timer( TIM4 );
 	init(2);
-
-	int S=0;
-while	(1)
-	{
-		for (int i=0; i< 64; i++) {
-			test_trigo(i, &S);
-		}
-	}
+	
+	while	(1) {}
 }
+
+//Calcul trigo
+/*extern void test_trigo(int, int *);
+
+int main() {
+	int S;
+	for (int i=0; i< 64; i++) {
+		test_trigo(i, &S);
+	}
+}*/
