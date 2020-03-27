@@ -1,4 +1,3 @@
-
 	AREA Trigo, DATA, READONLY
 	export TabSin
 	export TabCos
@@ -135,4 +134,3 @@ TabSin
 	DCW	-3212	; 63 0xf374 -0.09802
 
 	END
-

@@ -165,7 +165,7 @@
         <Mm>
           <WinNumber>1</WinNumber>
           <SubType>0</SubType>
-          <ItemText>0x08001ED8</ItemText>
+          <ItemText>0x20000580</ItemText>
           <AccSizeX>0</AccSizeX>
         </Mm>
       </MemoryWindow1>
@@ -512,6 +512,18 @@
       <bDave2>0</bDave2>
       <PathWithFileName>.\calcul_dft.s</PathWithFileName>
       <FilenameWithoutPath>calcul_dft.s</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>9</FileNumber>
+      <FileType>2</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\calcul_trigo.s</PathWithFileName>
+      <FilenameWithoutPath>calcul_trigo.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

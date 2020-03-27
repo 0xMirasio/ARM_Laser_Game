@@ -5,7 +5,7 @@ extern void init(int i);
 extern void test_trigo(int, int *);
 extern int min;
 extern int max;
-extern void dft(int);
+extern int dft(int, int *);
 int main(void)
 {
 
@@ -25,15 +25,21 @@ int main(void)
 	Active_IT_Debordement_Timer( TIM4, 2, callback );
 	// lancement du timer
 	Run_Timer( TIM4 );
-	init(2);
-
-	int S=0;
+	//init(2);
+	int k = 1;
+	int dft_res = 0;
+	//for (int i=0; i < 64 ; i++) {
+		//	dft(k, &dft_res);
+	//}
+	dft(k, &dft_res);
 while	(1)
 	{
+		/*
 		for (int i=0; i< 64; i++) {
 			test_trigo(i, &S);
 		}
-		
-		dft(3);
+		*/
+
+		//dft(k, &dft_res);
 	}
 }
