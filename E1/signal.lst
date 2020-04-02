@@ -46,9 +46,7 @@ ARM Macro Assembler    Page 1
    36 0000002A F44F 3100       mov              r1, #0x00020000 ; passe a 0
    37 0000002E E7F4            b                main
    38 00000030         
-   39 00000030         
-   40 00000030         
-   41 00000030                 end
+   39 00000030                 end
               40010C10 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\obj\signal.d -o.\obj\signal.o -I.\RTE\_Simu -IC:\Users\titip\App

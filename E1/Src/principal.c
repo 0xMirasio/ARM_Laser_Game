@@ -1,4 +1,4 @@
-#include "../gassp72.h"
+#include "gassp72.h"
 
 extern void callback(void);
 extern void init(int i);

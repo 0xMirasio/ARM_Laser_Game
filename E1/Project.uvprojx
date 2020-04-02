@@ -393,11 +393,6 @@
               <FilePath>.\Src\principal.c</FilePath>
             </File>
             <File>
-              <FileName>gassp72.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\gassp72.h</FilePath>
-            </File>
-            <File>
               <FileName>gassp72.lib</FileName>
               <FileType>4</FileType>
               <FilePath>.\gassp72.lib</FilePath>
@@ -799,11 +794,6 @@
               <FileName>principal.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Src\principal.c</FilePath>
-            </File>
-            <File>
-              <FileName>gassp72.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\gassp72.h</FilePath>
             </File>
             <File>
               <FileName>gassp72.lib</FileName>
