@@ -137,7 +137,7 @@
             <DriverSelection>4101</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
-          <Flash2>STLink\ST-LINKIII-KEIL_SWO.dll</Flash2>
+          <Flash2>BIN\UL2CM3.DLL</Flash2>
           <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
@@ -393,19 +393,9 @@
               <FilePath>.\Src\principal.c</FilePath>
             </File>
             <File>
-              <FileName>gassp72.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\gassp72.h</FilePath>
-            </File>
-            <File>
               <FileName>gassp72.lib</FileName>
               <FileType>4</FileType>
               <FilePath>.\gassp72.lib</FilePath>
-            </File>
-            <File>
-              <FileName>signal.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\signal.s</FilePath>
             </File>
             <File>
               <FileName>tab-cos-sin.s</FileName>
@@ -421,11 +411,6 @@
               <FileName>calcul_dft.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\calcul_dft.s</FilePath>
-            </File>
-            <File>
-              <FileName>calcul_trigo.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\calcul_trigo.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -821,19 +806,9 @@
               <FilePath>.\Src\principal.c</FilePath>
             </File>
             <File>
-              <FileName>gassp72.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\gassp72.h</FilePath>
-            </File>
-            <File>
               <FileName>gassp72.lib</FileName>
               <FileType>4</FileType>
               <FilePath>.\gassp72.lib</FilePath>
-            </File>
-            <File>
-              <FileName>signal.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\signal.s</FilePath>
             </File>
             <File>
               <FileName>tab-cos-sin.s</FileName>
@@ -849,11 +824,6 @@
               <FileName>calcul_dft.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\calcul_dft.s</FilePath>
-            </File>
-            <File>
-              <FileName>calcul_trigo.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\calcul_trigo.s</FilePath>
             </File>
           </Files>
         </Group>

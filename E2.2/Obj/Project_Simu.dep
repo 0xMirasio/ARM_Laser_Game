@@ -1,20 +1,0 @@
-Dependencies for Project 'Project', Target 'Simu': (DO NOT MODIFY !)
-CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
-F (.\Src\startup-rvds.s)(0x5E6F259D)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Simu-IC:\Users\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\titip\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup-rvds.lst --xref -o .\obj\startup-rvds.o --depend .\obj\startup-rvds.d)
-F (.\Src\principal.c)(0x5E7E349E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --C99-I.\RTE\_Simu-IC:\Users\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\titip\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD -DSTM32F103xB -DUSE_FULL_LL_DRIVER-o .\obj\principal.o --omf_browse .\obj\principal.crf --depend .\obj\principal.d)
-I (Src\../gassp72.h)(0x5E6F259C)
-I (C:\Users\titip\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58259ADC)
-I (.\RTE\_Simu\RTE_Components.h)(0x5E6F25A3)
-I (C:\Users\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
-I (C:\Users\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
-I (C:\Users\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
-I (C:\Users\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
-I (C:\Users\titip\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58259ADC)
-F (.\gassp72.h)(0x5E6F259C)()
-F (.\gassp72.lib)(0x5E6F259C)()
-F (.\signal.s)(0x5E761E50)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Simu-IC:\Users\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\titip\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list signal.lst --xref -o .\obj\signal.o --depend .\obj\signal.d)
-F (.\tab-cos-sin.s)(0x5E7E342A)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Simu-IC:\Users\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\titip\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list tab-cos-sin.lst --xref -o .\obj\tab-cos-sin.o --depend .\obj\tab-cos-sin.d)
-F (.\tab-signal.s)(0x5E7E3467)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Simu-IC:\Users\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\titip\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list tab-signal.lst --xref -o .\obj\tab-signal.o --depend .\obj\tab-signal.d)
-F (.\calcul_dft.s)(0x5E7E318F)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Simu-IC:\Users\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\titip\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list calcul_dft.lst --xref -o .\obj\calcul_dft.o --depend .\obj\calcul_dft.d)
-F (.\calcul_trigo.s)(0x5E7E1EB3)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Simu-IC:\Users\titip\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\titip\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list calcul_trigo.lst --xref -o .\obj\calcul_trigo.o --depend .\obj\calcul_trigo.d)

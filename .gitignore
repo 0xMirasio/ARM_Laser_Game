@@ -1,3 +1,7 @@
-DebugConfig
-Obj
-RTE
+/DEV
+/E1/DebugConfig
+/E1/Obj
+/E1/RTE
+*.titip
+*.uvoptx
+*.uvguix.*
