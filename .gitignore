@@ -1,7 +1,7 @@
 /DEV
-/E1/DebugConfig
-/E1/Obj
-/E1/RTE
+/*/DebugConfig
+/*/Obj
+/*/RTE
 *.titip
 *.uvoptx
 *.uvguix.*
