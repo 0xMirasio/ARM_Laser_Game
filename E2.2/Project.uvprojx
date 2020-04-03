@@ -383,11 +383,6 @@
           <GroupName>Sources</GroupName>
           <Files>
             <File>
-              <FileName>startup-rvds.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\startup-rvds.s</FilePath>
-            </File>
-            <File>
               <FileName>principal.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Src\principal.c</FilePath>
@@ -408,6 +403,19 @@
               <FilePath>.\calcul_dft.s</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>Sys</GroupName>
+          <Files>
+            <File>
+              <FileName>startup-rvds.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\startup-rvds.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Drivers</GroupName>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
@@ -791,11 +799,6 @@
           <GroupName>Sources</GroupName>
           <Files>
             <File>
-              <FileName>startup-rvds.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\startup-rvds.s</FilePath>
-            </File>
-            <File>
               <FileName>principal.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Src\principal.c</FilePath>
@@ -816,6 +819,19 @@
               <FilePath>.\calcul_dft.s</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>Sys</GroupName>
+          <Files>
+            <File>
+              <FileName>startup-rvds.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\startup-rvds.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Drivers</GroupName>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
