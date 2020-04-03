@@ -364,7 +364,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\tab-cos-sin.s</PathWithFileName>
+      <PathWithFileName>.\Src\tab-cos-sin.s</PathWithFileName>
       <FilenameWithoutPath>tab-cos-sin.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -376,7 +376,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\trigo.s</PathWithFileName>
+      <PathWithFileName>.\Src\trigo.s</PathWithFileName>
       <FilenameWithoutPath>trigo.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>

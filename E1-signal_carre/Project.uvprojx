@@ -383,24 +383,39 @@
           <GroupName>Sources</GroupName>
           <Files>
             <File>
-              <FileName>startup-rvds.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\startup-rvds.s</FilePath>
-            </File>
-            <File>
               <FileName>principal.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Src\principal.c</FilePath>
             </File>
             <File>
-              <FileName>gassp72.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>.\gassp72.lib</FilePath>
-            </File>
-            <File>
               <FileName>signal.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\signal.s</FilePath>
+              <FilePath>.\Src\signal.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Sys</GroupName>
+          <Files>
+            <File>
+              <FileName>startup-rvds.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\startup-rvds.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Driver</GroupName>
+          <Files>
+            <File>
+              <FileName>gassp72.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Src\gassp72.h</FilePath>
+            </File>
+            <File>
+              <FileName>gassp72.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>.\Src\gassp72.lib</FilePath>
             </File>
           </Files>
         </Group>
@@ -786,24 +801,39 @@
           <GroupName>Sources</GroupName>
           <Files>
             <File>
-              <FileName>startup-rvds.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\startup-rvds.s</FilePath>
-            </File>
-            <File>
               <FileName>principal.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Src\principal.c</FilePath>
             </File>
             <File>
-              <FileName>gassp72.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>.\gassp72.lib</FilePath>
-            </File>
-            <File>
               <FileName>signal.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\signal.s</FilePath>
+              <FilePath>.\Src\signal.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Sys</GroupName>
+          <Files>
+            <File>
+              <FileName>startup-rvds.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\startup-rvds.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Driver</GroupName>
+          <Files>
+            <File>
+              <FileName>gassp72.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Src\gassp72.h</FilePath>
+            </File>
+            <File>
+              <FileName>gassp72.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>.\Src\gassp72.lib</FilePath>
             </File>
           </Files>
         </Group>

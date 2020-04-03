@@ -354,7 +354,7 @@
 
   <Group>
     <GroupName>Sources</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -377,8 +377,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\tab-cos-sin.s</PathWithFileName>
-      <FilenameWithoutPath>tab-cos-sin.s</FilenameWithoutPath>
+      <PathWithFileName>.\Src\calcul_dft.s</PathWithFileName>
+      <FilenameWithoutPath>calcul_dft.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -389,8 +389,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\tab-signal.s</PathWithFileName>
-      <FilenameWithoutPath>tab-signal.s</FilenameWithoutPath>
+      <PathWithFileName>.\Src\tab-cos-sin.s</PathWithFileName>
+      <FilenameWithoutPath>tab-cos-sin.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -401,8 +401,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\calcul_dft.s</PathWithFileName>
-      <FilenameWithoutPath>calcul_dft.s</FilenameWithoutPath>
+      <PathWithFileName>.\Src\tab-signal.s</PathWithFileName>
+      <FilenameWithoutPath>tab-signal.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
