@@ -19,9 +19,9 @@ extern int TabSig[];
 
 // CONSTANTE -----------------------
 short int DMA[64];
-int val_k[6] = {17 , 18 ,19 ,20 ,23 ,24};
-int compteur[6] = {0,0,0,0,0,0};
-int score[6] = {0,0,0,0,0,0};
+int val_k[] = {17 , 18 ,19 ,20 ,23 ,24};
+int compteur[] = {0,0,0,0,0,0};
+int score[] = {0,0,0,0,0,0};
 
 // --------------------
 
@@ -37,6 +37,13 @@ void sys_callback(void) {
 					compteur[i] = 0;
 			}
 	}
+	/*
+	for (int i=0 ; i<6 ; i++ ) {
+			if (compteur[i] > 4){
+					score[i] +=1;
+			}
+		}
+	*/
 }
 int main(void)
 {
@@ -66,11 +73,6 @@ int main(void)
 
 while	(1)
 	{
-		for (int i=0 ; i<6 ; i++ ) {
-			if (compteur[i] > 4){
-					score[i] +=1;
-			}
-		}
 			
 	}
 }
