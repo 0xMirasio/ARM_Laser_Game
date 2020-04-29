@@ -37,13 +37,11 @@ void sys_callback(void) {
 					compteur[i] = 0;
 			}
 	}
-	/*
 	for (int i=0 ; i<6 ; i++ ) {
-			if (compteur[i] > 4){
+			if (compteur[i] == 13){
 					score[i] +=1;
 			}
 		}
-	*/
 }
 int main(void)
 {
