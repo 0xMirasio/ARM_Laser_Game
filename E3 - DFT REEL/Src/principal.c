@@ -22,7 +22,6 @@ short int DMA[64];
 int val_k[] = {17 , 18 ,19 ,20 ,23 ,24};
 int compteur[] = {0,0,0,0,0,0};
 int score[] = {0,0,0,0,0,0};
-
 // --------------------
 
 void sys_callback(void) {
@@ -38,7 +37,7 @@ void sys_callback(void) {
 			}
 	}
 	for (int i=0 ; i<6 ; i++ ) {
-			if (compteur[i] == 13){
+			if (compteur[i] > 12){
 					score[i] +=1;
 			}
 		}
