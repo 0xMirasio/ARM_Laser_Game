@@ -1,13 +1,17 @@
 
+
 extern int min;
 extern int max;
 extern int dft(int *, int );
 extern int TabSig[];
 
-int dft_res = 0;
+int dft_res[64];
 int main(void)
 {
-	dft_res = dft(TabSig,1);
+	for (int i=0; i<64 ; i++) {
+			dft_res[i] = dft(TabSig,i);
+	}
+
 while	(1)
 	{
 	}

@@ -8,7 +8,7 @@
 	export dft_re
 
 dft		proc
-	push {lr}
+	push {lr, r4-r7}
 	push {r0-r1} ; on save K, et TabSig
 	bl dft_re ; on recup re(k) depuis r12
 	smull r4, r5, r8, r8 ; calcul de Re(k)^2 dans r4,r5
@@ -16,7 +16,7 @@ dft		proc
 	bl dft_im ; calcul de im(k) dans r12
 	smlal r4, r5, r8, r8
 	mov r0,r5
-	pop {pc}
+	pop {pc, r4-r7}
 	endp
 
 dft_im         proc
