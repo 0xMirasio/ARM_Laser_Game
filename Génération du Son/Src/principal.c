@@ -1,7 +1,8 @@
 #include "etat.h"
 #include "gassp72.h"
-#define pwn_periode 360000 // 5ms
+#define pwn_periode 360 // KhZ
 extern void callback_son(void);
+type_etat etat;
 extern short Son;
 extern int LongueurSon;
 extern int PeriodeSonMicroSec;
@@ -9,7 +10,7 @@ extern int PeriodeSonMicroSec;
 int main(void)
 {
 	
-	type_etat etat;
+	
 	// config port PB0 pour être utilisé par TIM3-CH3
 	GPIO_Configure(GPIOB, 0, OUTPUT, ALT_PPULL);
 	// config TIM3-CH3 en mode PWM
