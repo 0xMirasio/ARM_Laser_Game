@@ -396,11 +396,6 @@
               <FileType>2</FileType>
               <FilePath>.\Src\tab-cos-sin.s</FilePath>
             </File>
-            <File>
-              <FileName>tab-signal.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\tab-signal.s</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -817,11 +812,6 @@
               <FileName>tab-cos-sin.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\tab-cos-sin.s</FilePath>
-            </File>
-            <File>
-              <FileName>tab-signal.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\tab-signal.s</FilePath>
             </File>
           </Files>
         </Group>
