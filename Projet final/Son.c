@@ -1,5 +1,6 @@
 #include "etat.h"
 #include "gassp72.h"
+#include "time.h"
 #define pwn_periode 360 // KhZ
 extern void callback_son(void);
 type_etat etat;
@@ -7,10 +8,10 @@ extern short Son;
 extern int LongueurSon;
 extern int PeriodeSonMicroSec;
 
-int main(void)
+int lancerBruitVerre()
 {
-	
-	
+	clock_t t1, t2;
+	t1 = clock();
 	// config port PB0 pour être utilisé par TIM3-CH3
 	GPIO_Configure(GPIOB, 0, OUTPUT, ALT_PPULL);
 	// config TIM3-CH3 en mode PWM
@@ -36,7 +37,8 @@ int main(void)
 	// lancement du timer
 	Run_Timer( TIM4 );
 
-while	(1)
-	{
-	}
+	t2 = clock();
+
+	while	(((t2-t1)/CLOCKS_PER_SEC) < 0.2) {}
+	return 1;
 }
