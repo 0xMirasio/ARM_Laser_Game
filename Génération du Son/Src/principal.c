@@ -10,8 +10,6 @@ extern int PeriodeSonMicroSec;
 
 int main(void)
 {
-	
-	
 	// config port PB0 pour être utilisé par TIM3-CH3
 	GPIO_Configure(GPIOB, 0, OUTPUT, ALT_PPULL);
 	// config TIM3-CH3 en mode PWM
