@@ -393,21 +393,6 @@
               <FilePath>.\Src\principal.c</FilePath>
             </File>
             <File>
-              <FileName>Son.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\Son.c</FilePath>
-            </File>
-            <File>
-              <FileName>Son.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\Son.s</FilePath>
-            </File>
-            <File>
-              <FileName>startup-rvds.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\startup-rvds.s</FilePath>
-            </File>
-            <File>
               <FileName>tab-cos-sin.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\tab-cos-sin.s</FilePath>
@@ -416,6 +401,11 @@
               <FileName>calcul_dft.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\calcul_dft.s</FilePath>
+            </File>
+            <File>
+              <FileName>Son.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\Son.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -831,21 +821,6 @@
               <FilePath>.\Src\principal.c</FilePath>
             </File>
             <File>
-              <FileName>Son.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\Son.c</FilePath>
-            </File>
-            <File>
-              <FileName>Son.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\Son.s</FilePath>
-            </File>
-            <File>
-              <FileName>startup-rvds.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\startup-rvds.s</FilePath>
-            </File>
-            <File>
               <FileName>tab-cos-sin.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\tab-cos-sin.s</FilePath>
@@ -854,6 +829,11 @@
               <FileName>calcul_dft.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\calcul_dft.s</FilePath>
+            </File>
+            <File>
+              <FileName>Son.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\Son.s</FilePath>
             </File>
           </Files>
         </Group>

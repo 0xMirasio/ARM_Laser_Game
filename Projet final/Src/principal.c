@@ -1,5 +1,4 @@
 #include "gassp72.h"
-#include "Son.h"
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -96,7 +95,7 @@ void sys_callback(void) {
 	for (int i=0 ; i<6 ; i++ ) {
 			if (compteur[i] == 13){
 				score[i] +=1;
-				active_son();
+				//active_son();
 			}
 		}
 }
