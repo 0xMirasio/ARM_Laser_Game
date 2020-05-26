@@ -15,8 +15,8 @@ E_PER	equ	16
 callback_son 	proc
 	
 	ldr r2, =etat ;adresse de la structure
-	ldr r0, [r2, #E_POS]  ; on charge la taille 
-	ldr r1, [r2, #E_TAI] ; on charge la position 
+	ldr r0, [r2, #E_POS]  ; on charge la position
+	ldr r1, [r2, #E_TAI] ; on charge la taille
 	cmp r0,r1 ; on compare la position et la taille
 	bne son_traitement ; si position=taille, le son est deja terminé, sinon on traite le son
 	
