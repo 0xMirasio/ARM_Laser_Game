@@ -1,5 +1,3 @@
-
-
 extern int min;
 extern int max;
 extern int dft(int *, int );
@@ -12,7 +10,5 @@ int main(void)
 			dft_res[i] = dft(TabSig,i);
 	}
 
-while	(1)
-	{
-	}
+while	(1) {}
 }
