@@ -423,9 +423,9 @@
           <GroupName>Driver</GroupName>
           <Files>
             <File>
-              <FileName>gassp72.lib</FileName>
+              <FileName>gfssp72.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>.\Src\gassp72.lib</FilePath>
+              <FilePath>.\Src\gfssp72.lib</FilePath>
             </File>
           </Files>
         </Group>
@@ -851,9 +851,9 @@
           <GroupName>Driver</GroupName>
           <Files>
             <File>
-              <FileName>gassp72.lib</FileName>
+              <FileName>gfssp72.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>.\Src\gassp72.lib</FilePath>
+              <FilePath>.\Src\gfssp72.lib</FilePath>
             </File>
           </Files>
         </Group>

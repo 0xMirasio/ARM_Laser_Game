@@ -14,6 +14,7 @@ E_PER	equ	16
 		
 callback_son 	proc
 	
+	push {r4-r8}
 	ldr r2, =etat ;adresse de la structure
 	ldr r0, [r2, #E_POS]  ; on charge la taille 
 	ldr r1, [r2, #E_TAI] ; on charge la position 
@@ -49,7 +50,9 @@ son_traitement
 	
 	b return
 	
-return bx lr	
+return 
+	pop {r4-r8}
+	bx lr	
 	
 	endp
 
