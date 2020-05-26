@@ -10,8 +10,6 @@ extern int PeriodeSonMicroSec;
 
 int lancerBruitVerre()
 {
-	clock_t t1, t2;
-	t1 = clock();
 	// config port PB0 pour être utilisé par TIM3-CH3
 	GPIO_Configure(GPIOB, 0, OUTPUT, ALT_PPULL);
 	// config TIM3-CH3 en mode PWM
@@ -36,9 +34,5 @@ int lancerBruitVerre()
 	Active_IT_Debordement_Timer( TIM4, 2, callback_son );
 	// lancement du timer
 	Run_Timer( TIM4 );
-
-	t2 = clock();
-
-	while	(((t2-t1)/CLOCKS_PER_SEC) < 0.2) {}
-	return 1;
+	
 }

@@ -3,8 +3,20 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include "etat.h"
+
+#define pwn_periode 360 // KhZ
 #define SYSTICK_PER 360000 // (360000 ticks équivaut à 5ms)
 #define M2TIR 984064 
+
+type_etat etat;
+extern void callback_son(void);
+extern short Son;
+extern int LongueurSon;
+extern int PeriodeSonMicroSec;
+extern int dft(short* signal, int k);
+extern int TabSig[];
+
 /*
 CALCUL DE M2TIR
 A/2 * 64 = 1982
@@ -14,8 +26,6 @@ Troncature des 32 bits les plus forts => 2 bits de la partie entière supprimés
 => division par 4 donc 3936256/4 = 984064 = M2TIR
 */
 
-extern int dft(short* signal, int k);
-extern int TabSig[];
 
 // CONSTANTES -----------------------
 short int DMA[64];
@@ -40,6 +50,33 @@ int trame = 0x33; //Scores théoriques : 1, 2, 3, 4, 5, 0
 
 // --------------------
 
+void active_son() {
+	
+	GPIO_Configure(GPIOB, 0, OUTPUT, ALT_PPULL);
+	// config TIM3-CH3 en mode PWM
+	etat.resolution = PWM_Init_ff( TIM3, 3, pwn_periode );
+	etat.son = &Son;
+	etat.taille = LongueurSon;
+	etat.position = 0;
+	// 72000 tick = 1ms donc X periode us = 72tick*Y tick
+	etat.periode_ticks = PeriodeSonMicroSec*72;
+	
+	// activation de la PLL qui multiplie la fréquence du quartz par 9
+	CLOCK_Configure();
+	//config port PB1 pour être utilisé en sortie
+	GPIO_Configure(GPIOB, 1, OUTPUT, OUTPUT_PPULL);
+	// initialisation du timer 4
+	// Periode_en_Tck doit fournir la durée entre interruptions,
+	// exprimée en périodes Tck de l'horloge principale du STM32 (72 MHz)
+	Timer_1234_Init_ff( TIM4, etat.periode_ticks );
+	// enregistrement de la fonction de traitement de l'interruption timer
+	// ici le 2 est la priorité, timer_callback est l'adresse de cette fonction, a créér en asm,
+	// cette fonction doit être conforme à l'AAPCS
+	Active_IT_Debordement_Timer( TIM4, 2, callback_son );
+	// lancement du timer
+	Run_Timer( TIM4 );
+	
+}
 void sys_callback(void) {
 	
 	//On récupère 64 valeurs du signal
@@ -58,10 +95,8 @@ void sys_callback(void) {
 	}
 	for (int i=0 ; i<6 ; i++ ) {
 			if (compteur[i] == 13){
-				if (lancerBruitVerre() != 1) {
-				  printf("Erreur son\n");
-				}
 				score[i] +=1;
+				active_son();
 			}
 		}
 }

@@ -184,6 +184,7 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>0</RvdsVP>
+            <RvdsMve>0</RvdsMve>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -387,34 +388,34 @@
               <FilePath>.\Src\bruitverre.s</FilePath>
             </File>
             <File>
-              <FileName>etat.inc</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Src\etat.inc</FilePath>
+              <FileName>principal.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Src\principal.c</FilePath>
             </File>
             <File>
               <FileName>Son.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Son.c</FilePath>
-            </File>
-            <File>
-              <FileName>principal.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\principal.c</FilePath>
-            </File>
-            <File>
-              <FileName>calcul_dft.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\calcul_dft.s</FilePath>
-            </File>
-            <File>
-              <FileName>tab-cos-sin.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\tab-cos-sin.s</FilePath>
+              <FilePath>.\Src\Son.c</FilePath>
             </File>
             <File>
               <FileName>Son.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\Son.s</FilePath>
+              <FilePath>.\Src\Son.s</FilePath>
+            </File>
+            <File>
+              <FileName>startup-rvds.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\startup-rvds.s</FilePath>
+            </File>
+            <File>
+              <FileName>tab-cos-sin.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\tab-cos-sin.s</FilePath>
+            </File>
+            <File>
+              <FileName>calcul_dft.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\calcul_dft.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -621,6 +622,7 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>0</RvdsVP>
+            <RvdsMve>0</RvdsMve>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -824,34 +826,34 @@
               <FilePath>.\Src\bruitverre.s</FilePath>
             </File>
             <File>
-              <FileName>etat.inc</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Src\etat.inc</FilePath>
+              <FileName>principal.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Src\principal.c</FilePath>
             </File>
             <File>
               <FileName>Son.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Son.c</FilePath>
-            </File>
-            <File>
-              <FileName>principal.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\principal.c</FilePath>
-            </File>
-            <File>
-              <FileName>calcul_dft.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\calcul_dft.s</FilePath>
-            </File>
-            <File>
-              <FileName>tab-cos-sin.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\tab-cos-sin.s</FilePath>
+              <FilePath>.\Src\Son.c</FilePath>
             </File>
             <File>
               <FileName>Son.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\Son.s</FilePath>
+              <FilePath>.\Src\Son.s</FilePath>
+            </File>
+            <File>
+              <FileName>startup-rvds.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\startup-rvds.s</FilePath>
+            </File>
+            <File>
+              <FileName>tab-cos-sin.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\tab-cos-sin.s</FilePath>
+            </File>
+            <File>
+              <FileName>calcul_dft.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\calcul_dft.s</FilePath>
             </File>
           </Files>
         </Group>

@@ -151,7 +151,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>.\principal.c</Filename>
+          <Filename>C:\Users\titip\Desktop\ARM_Laser_Game\Projet final\principal.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\CHTI\principal.c\127</Expression>
         </Bp>
@@ -167,7 +167,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>.\principal.c</Filename>
+          <Filename>C:\Users\titip\Desktop\ARM_Laser_Game\Projet final\principal.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\CHTI\principal.c\64</Expression>
         </Bp>
@@ -238,6 +238,7 @@
       </LogicAnalyzers>
       <DebugDescription>
         <Enable>1</Enable>
+        <EnableFlashSeq>0</EnableFlashSeq>
         <EnableLog>0</EnableLog>
         <Protocol>2</Protocol>
         <DbgClock>10000000</DbgClock>
@@ -360,7 +361,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\principal.c</Filename>
+          <Filename>C:\Users\titip\Desktop\ARM_Laser_Game\Projet final\principal.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
@@ -376,7 +377,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\principal.c</Filename>
+          <Filename>C:\Users\titip\Desktop\ARM_Laser_Game\Projet final\principal.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
@@ -425,6 +426,7 @@
       <pMultCmdsp></pMultCmdsp>
       <DebugDescription>
         <Enable>1</Enable>
+        <EnableFlashSeq>0</EnableFlashSeq>
         <EnableLog>0</EnableLog>
         <Protocol>2</Protocol>
         <DbgClock>10000000</DbgClock>
@@ -453,12 +455,12 @@
     <File>
       <GroupNumber>1</GroupNumber>
       <FileNumber>2</FileNumber>
-      <FileType>5</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Src\etat.inc</PathWithFileName>
-      <FilenameWithoutPath>etat.inc</FilenameWithoutPath>
+      <PathWithFileName>.\Src\principal.c</PathWithFileName>
+      <FilenameWithoutPath>principal.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -469,7 +471,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Son.c</PathWithFileName>
+      <PathWithFileName>.\Src\Son.c</PathWithFileName>
       <FilenameWithoutPath>Son.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -477,12 +479,12 @@
     <File>
       <GroupNumber>1</GroupNumber>
       <FileNumber>4</FileNumber>
-      <FileType>1</FileType>
+      <FileType>2</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\principal.c</PathWithFileName>
-      <FilenameWithoutPath>principal.c</FilenameWithoutPath>
+      <PathWithFileName>.\Src\Son.s</PathWithFileName>
+      <FilenameWithoutPath>Son.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -493,8 +495,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\calcul_dft.s</PathWithFileName>
-      <FilenameWithoutPath>calcul_dft.s</FilenameWithoutPath>
+      <PathWithFileName>.\Src\startup-rvds.s</PathWithFileName>
+      <FilenameWithoutPath>startup-rvds.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -505,7 +507,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\tab-cos-sin.s</PathWithFileName>
+      <PathWithFileName>.\Src\tab-cos-sin.s</PathWithFileName>
       <FilenameWithoutPath>tab-cos-sin.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -517,8 +519,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Son.s</PathWithFileName>
-      <FilenameWithoutPath>Son.s</FilenameWithoutPath>
+      <PathWithFileName>.\Src\calcul_dft.s</PathWithFileName>
+      <FilenameWithoutPath>calcul_dft.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -526,7 +528,7 @@
 
   <Group>
     <GroupName>Sys</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -546,7 +548,7 @@
 
   <Group>
     <GroupName>Driver</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
