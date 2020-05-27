@@ -9,11 +9,12 @@
 
 dft		proc
 	push {lr, r4-r7}
-	push {r0-r1} ; on save K, et TabSig
-	bl dft_re ; on recup re(k) depuis r12
+	push {r0-r1} ; on save K, et TabSig pour pouvoir utiliser r0 et r1 pour des calculs et
+				 ; tout de même utiliser K et TabSig par la suite dans dft_im
+	bl dft_re ; calcul de re(k) dans r8
 	smull r4, r5, r8, r8 ; calcul de Re(k)^2 dans r4,r5
 	pop {r0-r1}
-	bl dft_im ; calcul de im(k) dans r12
+	bl dft_im ; calcul de im(k) dans r8
 	smlal r4, r5, r8, r8
 	mov r0,r5
 	pop {pc, r4-r7}
