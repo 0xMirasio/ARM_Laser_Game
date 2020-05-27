@@ -1,13 +1,17 @@
 #include "etat.h"
 #include "gassp72.h"
 #define pwn_periode 360 // KhZ
+//Fonction définie dans main.s
 extern void callback_son(void);
+//On va stocker toutes les informations sur le son dans la variable etat
 type_etat etat;
+//On récupère le son, sa période et sa longueur du son dans le fichier de son en asm obtenu via Wav2asm
+//Ici, les infos sont donc stockées dans bruitverre.s
 extern short Son;
 extern int LongueurSon;
 extern int PeriodeSonMicroSec;
 
-
+//On va simplement configurer le timer pour qu'il appelle callback_son pour jouer chaque échantillon su son 
 int main(void)
 {
 	// config port PB0 pour être utilisé par TIM3-CH3
@@ -35,7 +39,5 @@ int main(void)
 	// lancement du timer
 	Run_Timer( TIM4 );
 
-while	(1)
-	{
-	}
+while	(1) {}
 }
