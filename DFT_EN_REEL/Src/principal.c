@@ -16,10 +16,12 @@ Troncature des 32 bits les plus forts => 2 bits de la partie entière supprimés
 extern int dft(short* signal, int k);
 extern int TabSig[];
 
-// CONSTANTES -----------------------
+//Définition des variables
+//Ce tableau va contenir les valeurs des 64 échantillons du signal recu, d?s qu'on fait une acquisition
 short int DMA[64];
 //Valeurs de k correspondant aux fréquences des pistolets
 int val_k[] = {17 , 18 ,19 ,20 ,23 ,24};
+//Tableaux pour compter les occurences d'un signal dans un ?chantillon, et les scores
 int compteur[] = {0,0,0,0,0,0};
 int score[] = {0,0,0,0,0,0};
 
@@ -29,6 +31,7 @@ int score[] = {0,0,0,0,0,0};
 
 //Décommenter la trame à analyser :
 
+//Avec la valeur 0x33, on observera le signal 1 (1x1, 2x2, 3x3, 4x4, 5x5 et 0x6)
 int trame = 0x33; //Scores théoriques : 1, 2, 3, 4, 5, 0
 //int trame = 0x52; //Scores théoriques : 1, 2, 3, 4, 5, 15 (0x0000000E)
 
@@ -36,11 +39,9 @@ int trame = 0x33; //Scores théoriques : 1, 2, 3, 4, 5, 0
 ////////////IMPORTANT : paramétrage de la trame de signaux//////////////
 ////////////////////////////////////////////////////////////////////////
 
-
-// --------------------
-
+//Cette fonction sera régulièrement appelée par le timer pour faire une acquisition de 64 points du signal
+//et effectuer une dft dessus pour savoir quel joueur a touché une cible
 void sys_callback(void) {
-	
 	//On récupère 64 valeurs du signal
 	Start_DMA1(64);
 	Wait_On_End_Of_DMA1();
