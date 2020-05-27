@@ -12,11 +12,12 @@
 type_etat etat;
 //Fonction définie dans Son.s
 extern void callback_son(void);
-extern short Son;
-//On récupère la période et la longueur du son dans le fichier de son en asm obtenu via Wav2asm
+//On récupère le son, sa période et sa longueur du son dans le fichier de son en asm obtenu via Wav2asm
 //Ici, les infos sont donc stockées dans bruitverre.s
+extern short Son;
 extern int LongueurSon;
 extern int PeriodeSonMicroSec;
+//Fonction dft définie dans le fichier calcul_dft.s
 extern int dft(short* signal, int k);
 
 //Définition des variables
